@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Company">
+      <EntityTypeMapping TypeName="Model.Company">
+        <MappingFragment StoreEntitySet="Company">
+          <ScalarProperty Name="TradingName" ColumnName="TradingName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdCompany" ColumnName="IdCompany" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Feed">
+      <EntityTypeMapping TypeName="Model.Feed">
+        <MappingFragment StoreEntitySet="Feed">
+          <ScalarProperty Name="ManualClassification" ColumnName="ManualClassification" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="PubDate" ColumnName="PubDate" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="TitleDescription" ColumnName="TitleDescription" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="IdCompany" ColumnName="IdCompany" />
+          <ScalarProperty Name="Guid" ColumnName="Guid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IdxIBMWatsonToneAnalyzer">
+      <EntityTypeMapping TypeName="Model.IdxIBMWatsonToneAnalyzer">
+        <MappingFragment StoreEntitySet="IdxIBMWatsonToneAnalyzer">
+          <ScalarProperty Name="IdxEmotionalRange" ColumnName="IdxEmotionalRange" />
+          <ScalarProperty Name="IdxAgreeableness" ColumnName="IdxAgreeableness" />
+          <ScalarProperty Name="IdxExtraversion" ColumnName="IdxExtraversion" />
+          <ScalarProperty Name="IdxConscientiousness" ColumnName="IdxConscientiousness" />
+          <ScalarProperty Name="IdxOpenness" ColumnName="IdxOpenness" />
+          <ScalarProperty Name="IdxTentative" ColumnName="IdxTentative" />
+          <ScalarProperty Name="IdxConfident" ColumnName="IdxConfident" />
+          <ScalarProperty Name="IdxAnalytical" ColumnName="IdxAnalytical" />
+          <ScalarProperty Name="IdxSadness" ColumnName="IdxSadness" />
+          <ScalarProperty Name="IdxJoy" ColumnName="IdxJoy" />
+          <ScalarProperty Name="IdxFear" ColumnName="IdxFear" />
+          <ScalarProperty Name="IdxDisgust" ColumnName="IdxDisgust" />
+          <ScalarProperty Name="IdxAnger" ColumnName="IdxAnger" />
+          <ScalarProperty Name="IdFeedPos" ColumnName="IdFeedPos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Quotation">
+      <EntityTypeMapping TypeName="Model.Quotation">
+        <MappingFragment StoreEntitySet="Quotation">
+          <ScalarProperty Name="Volume" ColumnName="Volume" />
+          <ScalarProperty Name="VariationP" ColumnName="VariationP" />
+          <ScalarProperty Name="Variation" ColumnName="Variation" />
+          <ScalarProperty Name="Maximum" ColumnName="Maximum" />
+          <ScalarProperty Name="Minimum" ColumnName="Minimum" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CodCompany" ColumnName="CodCompany" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RssConfig">
+      <EntityTypeMapping TypeName="Model.RssConfig">
+        <MappingFragment StoreEntitySet="RssConfig">
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="IdRssConfig" ColumnName="IdRssConfig" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StopWords">
+      <EntityTypeMapping TypeName="Model.StopWords">
+        <MappingFragment StoreEntitySet="StopWords">
+          <ScalarProperty Name="Word" ColumnName="Word" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_IBM_WatsonToneAnalyzer">
+      <EntityTypeMapping TypeName="Model.V_IBM_WatsonToneAnalyzer">
+        <MappingFragment StoreEntitySet="V_IBM_WatsonToneAnalyzer">
+          <ScalarProperty Name="IdxEmotionalRange" ColumnName="IdxEmotionalRange" />
+          <ScalarProperty Name="IdxAgreeableness" ColumnName="IdxAgreeableness" />
+          <ScalarProperty Name="IdxExtraversion" ColumnName="IdxExtraversion" />
+          <ScalarProperty Name="IdxConscientiousness" ColumnName="IdxConscientiousness" />
+          <ScalarProperty Name="IdxOpenness" ColumnName="IdxOpenness" />
+          <ScalarProperty Name="IdxTentative" ColumnName="IdxTentative" />
+          <ScalarProperty Name="IdxConfident" ColumnName="IdxConfident" />
+          <ScalarProperty Name="IdxAnalytical" ColumnName="IdxAnalytical" />
+          <ScalarProperty Name="IdxSadness" ColumnName="IdxSadness" />
+          <ScalarProperty Name="IdxJoy" ColumnName="IdxJoy" />
+          <ScalarProperty Name="IdxFear" ColumnName="IdxFear" />
+          <ScalarProperty Name="IdxDisgust" ColumnName="IdxDisgust" />
+          <ScalarProperty Name="IdxAnger" ColumnName="IdxAnger" />
+          <ScalarProperty Name="VariationP" ColumnName="VariationP" />
+          <ScalarProperty Name="PubDate" ColumnName="PubDate" />
+          <ScalarProperty Name="TitleDescription" ColumnName="TitleDescription" />
+          <ScalarProperty Name="IdFeedPos" ColumnName="IdFeedPos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IdxGoogleCloudNaturalLanguageAPI">
+      <EntityTypeMapping TypeName="Model.IdxGoogleCloudNaturalLanguageAPI">
+        <MappingFragment StoreEntitySet="IdxGoogleCloudNaturalLanguageAPI">
+          <ScalarProperty Name="Magnitude" ColumnName="Magnitude" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="IdFeedPos" ColumnName="IdFeedPos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FeedPos">
+      <EntityTypeMapping TypeName="Model.FeedPos">
+        <MappingFragment StoreEntitySet="FeedPos">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="PubDate" ColumnName="PubDate" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="ManualClassification" ColumnName="ManualClassification" />
+          <ScalarProperty Name="TitleDescription" ColumnName="TitleDescription" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="IdCompany" ColumnName="IdCompany" />
+          <ScalarProperty Name="IdFeedPos" ColumnName="IdFeedPos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_Google_CloudNaturalLanguageAPI">
+      <EntityTypeMapping TypeName="Model.V_Google_CloudNaturalLanguageAPI">
+        <MappingFragment StoreEntitySet="V_Google_CloudNaturalLanguageAPI">
+          <ScalarProperty Name="Magnitude" ColumnName="Magnitude" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="VariationP" ColumnName="VariationP" />
+          <ScalarProperty Name="PubDate" ColumnName="PubDate" />
+          <ScalarProperty Name="TitleDescription" ColumnName="TitleDescription" />
+          <ScalarProperty Name="IdFeedPos" ColumnName="IdFeedPos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

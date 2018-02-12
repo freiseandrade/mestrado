@@ -1,0 +1,11 @@
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\bin\Debug\FW.DataAccess.dll.config
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\bin\Debug\FW.DataAccess.dll
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\bin\Debug\FW.DataAccess.pdb
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\bin\Debug\EntityFramework.dll
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\bin\Debug\EntityFramework.xml
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\obj\Debug\FW.DataAccess.csproj.CoreCompileInputs.cache
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\obj\Debug\FW.DataAccess.dll
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\obj\Debug\FW.DataAccess.pdb
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.DataAccess\obj\Debug\FW.DataAccess.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.Crawler\obj\Debug\FW.Crawler.ProjectInstaller.resources
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.Crawler\obj\Debug\FW.Crawler.Service.resources
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.Crawler\obj\Debug\FW.Crawler.csproj.GenerateResource.Cache
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.Crawler\obj\Debug\FW.Crawler.csproj.CoreCompileInputs.cache
+D:\TFS\Mestrado\Fonte\FW.Solution\FW.Crawler\obj\Debug\FW.Crawler.csprojResolveAssemblyReference.cache

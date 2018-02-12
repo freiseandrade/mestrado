@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5cadf27a9658460eba12d811d9c1e908" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="Model.Company" Width="1.5" PointX="0.75" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.Feed" Width="1.5" PointX="2.75" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.IdxIBMWatsonToneAnalyzer" Width="2.5" PointX="7" PointY="3.125" />
+        <EntityTypeShape EntityType="Model.Quotation" Width="1.5" PointX="2.5" PointY="4.5" />
+        <EntityTypeShape EntityType="Model.RssConfig" Width="1.5" PointX="6.75" PointY="0.5" />
+        <EntityTypeShape EntityType="Model.StopWords" Width="1.5" PointX="4.375" PointY="4.5" />
+        <EntityTypeShape EntityType="Model.V_IBM_WatsonToneAnalyzer" Width="2.5" PointX="9.875" PointY="3.125" />
+        <EntityTypeShape EntityType="Model.IdxGoogleCloudNaturalLanguageAPI" Width="1.5" PointX="0.625" PointY="3.75" />
+        <EntityTypeShape EntityType="Model.FeedPos" Width="1.5" PointX="5.375" PointY="7.75" />
+        <EntityTypeShape EntityType="Model.V_Google_CloudNaturalLanguageAPI" Width="1.5" PointX="0.75" PointY="8.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
